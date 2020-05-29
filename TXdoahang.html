@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>腾讯大成网导航</title>
+		<style type="text/css">
+			.T ul{
+				/*去掉序列前的圆点*/
+				list-style: none;
+			}
+			.T li{
+				/*将列表转换成横向的*/
+				float: left;
+			}
+			.T{
+				width: 1000px;
+				height: 30px;
+				margin: auto;
+				background-color: #4abdcc;
+			}
+			.T a{
+				/*diaplay是布局属性 inline-block是指定对象为内联块元素*/
+				display: inline-block;
+				width: 120px;
+				height: 30px;
+				margin: 0px 20px;
+				background-color: #4abdcc;
+				color: white;
+				font-size: 14px;
+				/*隐藏溢出容器的内容且不出现滚动条*/
+				/*overflow: hidden;*/
+				word-break: keep-all;
+				/*当内联内容溢出块容器时，将溢出部分替换为(...)*/
+				/*text-overflow: ellipsis;*/
+				text-align: center;
+				line-height: 29px;
+				text-decoration: none;
+			}
+			.T a:hover{
+				background-color: #279aa7;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="T">
+			<ul>
+				<li><a href="#">首页</a></li>
+				<li><a href="#">周边游</a></li>
+				<li><a href="#">出境游</a></li>
+				<li><a href="#">独家栏目</a></li>
+			</ul>
+		</div>
+	</body>
+</html>
